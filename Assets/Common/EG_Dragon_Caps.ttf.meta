@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f5745cb5f31644ba5a97684b15fde605
+timeCreated: 1491667464
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: 'EG Dragon Caps '
+  fontNames:
+  - 'EG Dragon Caps '
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

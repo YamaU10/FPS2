@@ -1950,7 +1950,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ItemRecords:
     itemList: 150
-    helpbox: 133
+    helpbox: 119
   m_ItemCaps:
     itemList: 219
     helpbox: 100

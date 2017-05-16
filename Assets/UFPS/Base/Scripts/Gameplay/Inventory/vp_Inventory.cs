@@ -496,10 +496,10 @@ public class vp_Inventory : MonoBehaviour
 	/// </summary>
 	public virtual bool TryGiveUnits(vp_UnitBankInstance bank, int amount)
 	{
-
+		
 		if (bank == null)
 			return false;
-
+		
 		amount = Mathf.Max(0, amount);
 
 		if (SpaceEnabled && (bank.IsInternal || (SpaceMode == Mode.Weight)))
@@ -510,9 +510,9 @@ public class vp_Inventory : MonoBehaviour
 				return DoAddUnits(bank, amount);
 			}
 		}
-
+		
 		return DoAddUnits(bank, amount);
-
+		
 	}
 
 
@@ -526,8 +526,8 @@ public class vp_Inventory : MonoBehaviour
 		if (bank == null)
 			return false;
 
-		if (bank.Count < amount)
-			return false;
+		//if (bank.Count < amount)
+			//return false;
 
 		return DoRemoveUnits(bank, amount);
 

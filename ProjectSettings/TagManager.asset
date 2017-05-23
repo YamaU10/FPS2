@@ -12,6 +12,7 @@ TagManager:
   - opencube
   - Enemy
   - Fire
+  - Field
   layers:
   - Default
   - TransparentFX

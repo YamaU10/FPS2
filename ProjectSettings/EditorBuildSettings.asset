@@ -12,6 +12,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SingleLevelSelect.unity
   - enabled: 1
+    path: Assets/Scenes/Playerprofile.unity
+  - enabled: 1
     path: Assets/Scenes/Tutorial.unity
   - enabled: 1
     path: Assets/Scenes/Level1.unity
@@ -29,3 +31,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Level7.unity
   - enabled: 1
     path: Assets/Scenes/Level8.unity
+  - enabled: 1
+    path: Assets/Scenes/Level9.unity

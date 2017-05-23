@@ -14,6 +14,9 @@ public class LoadScene : MonoBehaviour {
 	void Update () {
 		
 	}
+    public void MainMenu(){
+        SceneManager.LoadScene("Mainmenu");
+    }
 	public void MulitScene()
 	{
 		SceneManager.LoadScene("Multi");
@@ -30,4 +33,7 @@ public class LoadScene : MonoBehaviour {
 	{
 		SceneManager.LoadScene("Custmiz");
 	}
+    public void PlayerProfile() {
+        SceneManager.LoadScene("Playerprofile");
+    }
 }

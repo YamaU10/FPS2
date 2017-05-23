@@ -4,14 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class ClaerEvent : MonoBehaviour {
-	float timer;
 	public Text text1;
 	public Text text2;
 	GameObject cubewall;
 	bool is_Onclearfield = false;
 	// Use this for initialization
 	void Start () {
-		timer = Time.deltaTime;
 		text1.enabled = false;
 		text2.enabled = false;
 		cubewall = GameObject.Find("CubeWall");

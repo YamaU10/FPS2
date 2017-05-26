@@ -327,9 +327,7 @@ public class vp_DamageHandler : MonoBehaviour
 	public virtual void Die()
 	{
 		GameDataManager.AddExp(10);
-        DeathCountClear.KillCount += 1;
         Debug.Log(DeathCountClear.KillCount);
-        Playerprofile.AllPlayerKillCount += 1;
 		if (!enabled || !vp_Utility.IsActive(gameObject))
 			return;
 

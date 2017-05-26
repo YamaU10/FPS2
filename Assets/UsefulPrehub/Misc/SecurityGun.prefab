@@ -115,6 +115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400012}
   - component: {fileID: 11486210}
+  - component: {fileID: 114658707967097254}
   m_Layer: 0
   m_Name: SecurityGun
   m_TagString: Untagged
@@ -674,3 +675,14 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100012}
   m_IsPrefabParent: 1
+--- !u!114 &114658707967097254
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1d7e1ed801a4cc0a542c713abbaeae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

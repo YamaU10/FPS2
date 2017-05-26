@@ -10792,7 +10792,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11486210, guid: fb0f949b688f370468c95ce45c3b9982, type: 2}
       propertyPath: surfaceTypeHelp
-      value: 166
+      value: 134
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: fb0f949b688f370468c95ce45c3b9982, type: 2}
       propertyPath: MaxHealth
@@ -23668,7 +23668,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11486210, guid: fb0f949b688f370468c95ce45c3b9982, type: 2}
       propertyPath: surfaceTypeHelp
-      value: 166
+      value: 134
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: fb0f949b688f370468c95ce45c3b9982, type: 2}
       propertyPath: m_IsActive
@@ -23964,7 +23964,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11486210, guid: fb0f949b688f370468c95ce45c3b9982, type: 2}
       propertyPath: surfaceTypeHelp
-      value: 166
+      value: 134
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: fb0f949b688f370468c95ce45c3b9982, type: 2}
       propertyPath: m_IsActive

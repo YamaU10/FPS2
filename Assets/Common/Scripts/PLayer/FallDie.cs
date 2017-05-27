@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class FallDie : MonoBehaviour {
     Vector3 StartPosition;
+    public GameObject scope;
 	// Use this for initialization
 	void Start () {
 		StartPosition = transform.position;
+        scope.SetActive(false);
 	}
 	
 	// Update is called once per frame

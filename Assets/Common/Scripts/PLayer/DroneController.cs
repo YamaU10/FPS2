@@ -8,7 +8,6 @@ public class DroneController : MonoBehaviour
     Vector3 startposition;
     float dis;
     public AudioSource sound01;
-    vp_FPController vpC;
     public Text text;
     bool isGrounded;
     CharacterController CC;
@@ -16,7 +15,6 @@ public class DroneController : MonoBehaviour
     void Start()
     {
         startposition = transform.position;
-        vpC = GetComponent<vp_FPController>();
         CC = GetComponent<CharacterController>();
     }
 

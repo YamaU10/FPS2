@@ -16,11 +16,9 @@ public class PlayerprofileText : MonoBehaviour
     float MKD;
     float PSKD;
     float RSKD;
-    Playerprofile pp;
     // Use this for initialization
     void Start()
     {
-        pp = GetComponent<Playerprofile>();
         APMKC.text = Playerprofile.AllMultiPlayerKillCount.ToString();
         APMDC.text = Playerprofile.AllMultiPlayerDeathCount.ToString();
         MKD = 1.0f * Playerprofile.AllMultiPlayerKillCount / Playerprofile.AllMultiPlayerDeathCount;

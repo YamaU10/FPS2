@@ -11,7 +11,7 @@ public class Rocket : MonoBehaviour {
 
     void Start()
     {
-        player = GameObject.Find("PA_ArchlightBomber");
+        player = GameObject.Find("FPSCamera");
         target = player.transform;
     }
 

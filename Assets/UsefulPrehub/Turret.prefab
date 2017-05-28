@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 114324591908709952}
   - component: {fileID: 65940514948357906}
   - component: {fileID: 114991028119883064}
+  - component: {fileID: 114731996350094304}
   m_Layer: 0
   m_Name: Turret
   m_TagString: Untagged
@@ -518,7 +519,7 @@ MonoBehaviour:
   RespawnCheckRadius: 1
   RespawnSound: {fileID: 8300000, guid: c6ffb5ccbd00a114494143e33e747a05, type: 3}
   DeathEffect: {fileID: 0}
-  helpbox: 82
+  helpbox: 92
 --- !u!114 &114557993383281134
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -562,6 +563,28 @@ MonoBehaviour:
   AimSpeed: 50
   WakeInterval: 2
   FireAngle: 10
+--- !u!114 &114731996350094304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1501545316353810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29bf09a14bfd0c849a72b3a3bbb0a47d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SpawnMode: 0
+  SpawnPointTag: 
+  m_ObstructionSolver: 0
+  ObstructionRadius: 1
+  MinRespawnTime: 100
+  MaxRespawnTime: 100
+  LastRespawnTime: 0
+  SpawnOnAwake: 0
+  SpawnSound: {fileID: 0}
+  SpawnFXPrefabs: []
+  helpbox: 129
 --- !u!114 &114890383261436838
 MonoBehaviour:
   m_ObjectHideFlags: 1

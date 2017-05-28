@@ -138,12 +138,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Range: 100
   Force: 600
-  Damage: 2.5
+  Damage: 3
   DamageMode: 1
   DamageMethodName: Damage
   ScanType: 0
   ImpactEvent: {fileID: 11400000, guid: ec188bd98e9c00f41aaf177530adf1cb, type: 2}
-  hitscanBulletHelp: 87
+  hitscanBulletHelp: 98
 --- !u!1002 &11400001
 EditorExtensionImpl:
   serializedVersion: 6

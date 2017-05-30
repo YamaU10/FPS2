@@ -275,7 +275,6 @@ public class vp_Explosion : MonoBehaviour
 	/// </summary>
 	protected virtual void TryDamage()
 	{
-        Debug.Log("damage");
 		// send primitive damage as UnityMessage. this allows support for many third party
 		// systems (simply use a 'void Damage(float)' method in target MonoBehaviours)
 		if ((DamageMode == vp_DamageInfo.DamageMode.UnityMessage)

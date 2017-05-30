@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RobotKillCount : MonoBehaviour {
     vp_DamageHandler vpD;
+    int count = 2;
 	// Use this for initialization
 	void Start () {
         vpD = GetComponent<vp_DamageHandler>();
@@ -16,5 +17,25 @@ public class RobotKillCount : MonoBehaviour {
             Playerprofile.AllSingleRobotKillCount += 1;
             Debug.Log(Playerprofile.AllSingleRobotKillCount);
         }
+		if (count == 1)
+		{
+			DeathCountClear.KillCount += 1;
+			Playerprofile.AllSingleRobotKillCount += 1;
+			count = 3;
+		}
+		if (count == 2)
+		{
+            if (vpD.CurrentHealth <= 0)
+			{
+				count = 1;
+			}
+		}
+		if (count == 3)
+		{
+            if (vpD.CurrentHealth > 0)
+			{
+				count = 2;
+			}
+		}
 	}
 }

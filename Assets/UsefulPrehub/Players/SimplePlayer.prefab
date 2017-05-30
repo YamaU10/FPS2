@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 114726851408098086}
   - component: {fileID: 114380361270179770}
   - component: {fileID: 114514147726682054}
+  - component: {fileID: 114072812389962986}
   m_Layer: 0
   m_Name: SimplePlayer
   m_TagString: Player
@@ -3370,6 +3371,19 @@ MonoBehaviour:
   KeepAiming: 0
   helpbox5: 62
   helpbox: 150
+--- !u!114 &114072812389962986
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a8ac49c35219400d93a58ad0faee4eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: {fileID: 0}
+  count: 2
 --- !u!114 &114095919830683508
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3529,7 +3543,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: d5038622b1b2a6f43874b4c45ddadc71, type: 2}
   AllowDecals: 0
   SurfaceID: 0
-  surfaceTypeHelp: 134
+  surfaceTypeHelp: 155
 --- !u!114 &114343109844744220
 MonoBehaviour:
   m_ObjectHideFlags: 1

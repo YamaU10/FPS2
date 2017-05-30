@@ -116,6 +116,7 @@ GameObject:
   - component: {fileID: 114808738737574818}
   - component: {fileID: 114872724254879892}
   - component: {fileID: 114943397856959850}
+  - component: {fileID: 114027608751951164}
   m_Layer: 0
   m_Name: SmallDrone
   m_TagString: Untagged
@@ -668,6 +669,28 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114027608751951164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1788217117561856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29bf09a14bfd0c849a72b3a3bbb0a47d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SpawnMode: 0
+  SpawnPointTag: 
+  m_ObstructionSolver: 0
+  ObstructionRadius: 1
+  MinRespawnTime: 1000
+  MaxRespawnTime: 1000
+  LastRespawnTime: 0
+  SpawnOnAwake: 0
+  SpawnSound: {fileID: 0}
+  SpawnFXPrefabs: []
+  helpbox: 129
 --- !u!114 &114150036694274416
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -759,7 +782,7 @@ MonoBehaviour:
   RespawnCheckRadius: 1
   RespawnSound: {fileID: 8300000, guid: c6ffb5ccbd00a114494143e33e747a05, type: 3}
   DeathEffect: {fileID: 0}
-  helpbox: 92
+  helpbox: 82
 --- !u!114 &114808738737574818
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -972,6 +972,7 @@ GameObject:
   - component: {fileID: 11400022}
   - component: {fileID: 11494490}
   - component: {fileID: 11479030}
+  - component: {fileID: 114967738841029950}
   m_Layer: 30
   m_Name: HeroHDWeapons
   m_TagString: Player
@@ -4465,7 +4466,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ItemRecords:
     itemList: 108
-    helpbox: 119
+    helpbox: 129
   m_ItemCaps:
     itemList: 88
     helpbox: 100
@@ -5715,7 +5716,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: d5038622b1b2a6f43874b4c45ddadc71, type: 2}
   AllowDecals: 0
   SurfaceID: 0
-  surfaceTypeHelp: 134
+  surfaceTypeHelp: 155
 --- !u!135 &13500000
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -6384,3 +6385,16 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100120}
   m_IsPrefabParent: 1
+--- !u!114 &114967738841029950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a8ac49c35219400d93a58ad0faee4eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: {fileID: 0}
+  count: 2

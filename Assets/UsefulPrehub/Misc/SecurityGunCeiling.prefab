@@ -8,7 +8,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 400000}
-  - component: {fileID: 114503347469548498}
   m_Layer: 0
   m_Name: SecurityGunCeiling
   m_TagString: Untagged
@@ -81,6 +80,7 @@ GameObject:
   - component: {fileID: 11400004}
   - component: {fileID: 11400002}
   - component: {fileID: 11400000}
+  - component: {fileID: 114797567228513184}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -369,7 +369,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -393,7 +393,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!108 &10800000
 Light:
   m_ObjectHideFlags: 1
@@ -581,12 +581,12 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100000}
   m_IsPrefabParent: 1
---- !u!114 &114503347469548498
+--- !u!114 &114797567228513184
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
+  m_GameObject: {fileID: 100008}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be1d7e1ed801a4cc0a542c713abbaeae, type: 3}

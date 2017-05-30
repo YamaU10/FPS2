@@ -12,7 +12,6 @@ public class newAREnemy : MonoBehaviour {
 	Transform _transform;
 	Transform _cameraTransform;
 	float _velocity;
-    private vp_DamageHandler vpD;
 	public GameObject turret;
 
 	// Use this for initialization
@@ -22,7 +21,6 @@ public class newAREnemy : MonoBehaviour {
 		target = GameObject.Find("FPSCamera");
 		_transform = transform;
 		_cameraTransform = Camera.main.transform;
-		vpD = GetComponent<vp_DamageHandler>();
 	}
 
 	// Update is called once per frame
@@ -33,23 +31,24 @@ public class newAREnemy : MonoBehaviour {
 		{
 			Rotation();
 		}
-		if (vpD.CurrentHealth <= 0)
+        if (GetComponent<vp_DamageHandler>().CurrentHealth <= 0)
 		{
+            GetComponent<vp_DamageHandler>().enabled = false;
 			animator.SetBool("is_death", true);
             Playerprofile.AllSinglePlayerKillCount += 1;
-			GetComponent<vp_DamageHandler>().enabled = false;
+            DeathCountClear.KillCount += 1;
 			GetComponent<BoxCollider>().enabled = false;
             GetComponent<newAREnemy>().enabled = false;
 			turret.SetActive(false);
 		}
-		else
+		/*else
 		{
 			GetComponent<vp_DamageHandler>().enabled = true;
 			GetComponent<BoxCollider>().enabled = true;
             GetComponent<newAREnemy>().enabled = true;
+            animator.enabled = true;
 			turret.SetActive(true);
-			animator.SetBool("is_death", false);
-		}
+		}*/
 	}
 	void Rotation()
 	{

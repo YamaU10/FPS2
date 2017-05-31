@@ -1,0 +1,13 @@
+///////////////////////////////////////////////////////////
+// Component Preset Script
+///////////////////////////////////////////////////////////
+
+ComponentType vp_FPWeapon
+RenderingFieldOfView 1
+PositionPivot 0 0 0
+RotationPivotSpringDamping 0.221
+ShakeSpeed 0
+PositionExitOffset 0 0 0
+RotationExitOffset 0 0 0
+PositionOffset -0.262 -0.32 -0.28
+RotationOffset 0 0 0

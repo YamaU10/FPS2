@@ -13,6 +13,7 @@ TagManager:
   - Enemy
   - Fire
   - Field
+  - DoomDayDevice
   layers:
   - Default
   - TransparentFX

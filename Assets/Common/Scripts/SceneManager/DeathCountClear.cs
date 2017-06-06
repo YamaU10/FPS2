@@ -10,6 +10,7 @@ public class DeathCountClear : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         text.enabled = false;
+        KillCount = 0;
 	}
 	
 	// Update is called once per frame
@@ -20,7 +21,7 @@ public class DeathCountClear : MonoBehaviour {
             text.enabled = true;
             if (timer >= 4)
             {
-                SceneManager.LoadScene("SingleLEvelSelect");
+                SceneManager.LoadScene("SingleLevelSelect");
             }
         }
 	}

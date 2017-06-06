@@ -27,14 +27,28 @@ public class PlayerprofileText : MonoBehaviour
         ARSKC.text = Playerprofile.AllSingleRobotKillCount.ToString();
         APSDC.text = Playerprofile.AllSingleDeathCount.ToString();
         PSKD = 1.0f * Playerprofile.AllSinglePlayerKillCount / Playerprofile.AllSingleDeathCount;
-        PSkd.text = PSKD.ToString("N1");
+        if (Playerprofile.AllSinglePlayerKillCount >= 0 && Playerprofile.AllSingleDeathCount == 0)
+        {
+            PSkd.text = Playerprofile.AllSinglePlayerKillCount.ToString("N1");
+        }
+        else
+        {
+            PSkd.text = PSKD.ToString("N1");
+        }
         RSKD = 1.0f * Playerprofile.AllSingleRobotKillCount / Playerprofile.AllSingleDeathCount;
-        RSkd.text = RSKD.ToString("N1");
+        if (Playerprofile.AllSingleRobotKillCount >= 0 && Playerprofile.AllSingleDeathCount == 0)
+        {
+            RSkd.text = Playerprofile.AllSingleRobotKillCount.ToString("N1");
+        }
+        else
+        {
+            RSkd.text = RSKD.ToString("N1");
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+		
     }
 }

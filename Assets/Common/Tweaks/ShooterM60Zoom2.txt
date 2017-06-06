@@ -1,0 +1,8 @@
+///////////////////////////////////////////////////////////
+// Component Preset Script
+///////////////////////////////////////////////////////////
+
+ComponentType vp_FPWeaponShooter
+MotionRotationRecoil 0 0 0
+MuzzleFlashPosition -0.01 -0.18 1.31
+FirePosition 165.2712 36.94069 39.65963

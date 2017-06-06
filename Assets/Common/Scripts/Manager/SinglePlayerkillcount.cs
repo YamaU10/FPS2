@@ -12,7 +12,6 @@ public class SinglePlayerkillcount : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(DeathCountClear.KillCount);
         if (count == 1)
         {
             Playerprofile.AllSinglePlayerKillCount += 1;

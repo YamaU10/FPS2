@@ -4,14 +4,14 @@ public class FallDie : MonoBehaviour
 {
     Vector3 StartPosition;
     public GameObject scope;
-    vp_FPPlayerDamageHandler vpp;
     public int count = 2;
+    float timer;
+    vp_DamageHandler damage;
     // Use this for initialization
     void Start()
     {
         StartPosition = transform.position;
         scope.SetActive(false);
-        vpp = GetComponent<vp_FPPlayerDamageHandler>();
     }
 
     // Update is called once per frame
@@ -24,19 +24,19 @@ public class FallDie : MonoBehaviour
         }
         if (count == 2)
         {
-            if (vpp.CurrentHealth <= 0)
+            if (GetComponent<vp_FPPlayerDamageHandler>().CurrentHealth <= 0)
             {
                 count = 1;
             }
         }
         if (count == 3)
         {
-            if (vpp.CurrentHealth > 0)
+            if (GetComponent<vp_FPPlayerDamageHandler>().CurrentHealth > 0)
             {
                 count = 2;
             }
         }
-        if (this.gameObject.transform.position.y <= 0)
+        if (this.gameObject.transform.position.y <= -20)
         {
             transform.position = StartPosition;
         }

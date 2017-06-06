@@ -1,0 +1,11 @@
+///////////////////////////////////////////////////////////
+// Component Preset Script
+///////////////////////////////////////////////////////////
+
+ComponentType vp_FPWeapon
+PositionPivot 0 0 0
+RotationPivot -0.63 0 0
+ShakeSpeed 0
+RotationExitOffset 0 0 0
+PositionOffset 0.016 -0.248 -0.27
+RotationOffset -0.22 0.3 0.94

@@ -36,8 +36,8 @@ public class GameDataManager : MonoBehaviour {
 		EXP = PlayerPrefs.GetInt (SaveKey.Experience);
 		return EXP;
 	}
-	public static void AddExp(int EXPPoint){
+	/*public static void AddExp(int EXPPoint){
 		data.experience += EXPPoint;
 		SaveExperience ();
-	}
+	}*/
 }

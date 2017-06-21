@@ -6521,7 +6521,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400014, guid: 8709e7cf54b902b48ae9543bc3a41cbe, type: 2}
       propertyPath: weaponHelp
-      value: 203
+      value: 192
       objectReference: {fileID: 0}
     - target: {fileID: 11400020, guid: 8709e7cf54b902b48ae9543bc3a41cbe, type: 2}
       propertyPath: Weapon3rdPersonModel
@@ -12975,7 +12975,7 @@ Transform:
   m_LocalScale: {x: 7.4283695, y: 48.448616, z: 7.8520308}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1437069294
 Prefab:
@@ -14652,7 +14652,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &1560416557
 Prefab:
@@ -17064,7 +17064,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1854740938
 Prefab:
@@ -17701,7 +17701,7 @@ Transform:
   - {fileID: 1011509880}
   - {fileID: 1658175765}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1915841790 stripped
 Transform:
